@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => {
                </div>
                <div>
                   <div className="text-6xl font-crimson font-bold text-[#141414] mb-4">100%</div>
-                  <div className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.2em]">Sovereign Built</div>
+                  <div className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.2em]">Locally Built</div>
                </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const AboutPage: React.FC = () => {
               { icon: <Target size={32}/>, title: "Cultural Depth", desc: "Natively optimized for 22+ official Indian languages and their nuanced idioms." },
               { icon: <Heart size={32}/>, title: "Ethical Kernel", desc: "Governance protocols woven into the very fabric of our models for absolute safety." },
               { icon: <Award size={32}/>, title: "Elite Precision", desc: "World-class accuracy standards tailored for mission-critical enterprise tasks." },
-              { icon: <ShieldCheck size={32}/>, title: "Absolute Sovereignty", desc: "Institutional data control resides entirely within the partner's domain." }
+              { icon: <ShieldCheck size={32}/>, title: "Data Integrity", desc: "Institutional data control resides entirely within the partner's domain." }
             ].map((item, i) => (
               <div key={i} className="reveal group p-14 bg-[#faf9f6] rounded-[3.5rem] border border-transparent hover:border-[#b33d1d]/20 hover:bg-white transition-all duration-700 hover:shadow-2xl">
                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-[#b33d1d] mb-12 shadow-sm group-hover:bg-[#b33d1d] group-hover:text-white transition-all duration-500">

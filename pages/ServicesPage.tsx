@@ -13,7 +13,7 @@ const ServicesPage: React.FC = () => {
   const catalog = [
     {
       index: "01",
-      title: "Sovereign Framework",
+      title: "Enterprise Framework",
       desc: "Institutional intelligence engineered for private deployment. Your data never crosses the boundary of your own infrastructure.",
       technical: ["Air-gapped compatible", "Kernel-level encryption", "Private GPU clusters"],
       icon: <Lock strokeWidth={1} size={48} />

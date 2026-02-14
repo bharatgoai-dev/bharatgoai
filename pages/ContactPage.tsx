@@ -41,7 +41,7 @@ const ContactPage: React.FC = () => {
             </h1>
             
             <p className="text-2xl text-[#4a4a4a] font-medium leading-relaxed mb-32 max-w-sm italic">
-              "We prioritize sovereign partnerships over generic inquiries. Every connection is a drafting of Bharat's AI future."
+              "We prioritize direct partnerships. Every connection is a drafting of Bharat's AI future."
             </p>
 
             <div className="space-y-20 relative">
@@ -145,7 +145,7 @@ const ContactPage: React.FC = () => {
 
                   <div className="text-center">
                     <p className="text-[10px] font-bold text-gray-400 uppercase tracking-[0.6em]">
-                      Sovereign Intelligence Foundation • 2025
+                      BharatGoAi Intelligence • 2025
                     </p>
                   </div>
                </form>
@@ -176,7 +176,7 @@ const ContactPage: React.FC = () => {
            <div className="h-12 w-[1px] bg-gray-200 hidden lg:block"></div>
            <div className="flex items-center gap-8 reveal" style={{ transitionDelay: '0.4s' }}>
               <ShieldCheck size={32} className="text-[#c44d2d]" />
-              <span className="text-[11px] font-bold text-[#1a1a1a] uppercase tracking-[0.5em]">Encrypted Data Sovereignty</span>
+              <span className="text-[11px] font-bold text-[#1a1a1a] uppercase tracking-[0.5em]">Encrypted Data Control</span>
            </div>
         </div>
       </section>

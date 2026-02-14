@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
           <span className="text-3xl font-crimson font-bold tracking-tight text-black flex items-baseline relative overflow-hidden h-[1.2em]">
             <span className="block translate-y-0 group-hover:-translate-y-full transition-transform duration-[0.8s]">BharatGo<span className="text-[#b33d1d] italic ml-1">Ai</span></span>
-            <span className="absolute top-0 left-0 block translate-y-full group-hover:translate-y-0 transition-transform duration-[0.8s] text-[#b33d1d]">Sovereign<span className="text-black italic ml-1">Ai</span></span>
+            <span className="absolute top-0 left-0 block translate-y-full group-hover:translate-y-0 transition-transform duration-[0.8s] text-[#b33d1d]">Bharat<span className="text-black italic ml-1">Ai</span></span>
           </span>
         </Link>
 
@@ -106,7 +106,7 @@ const Navbar = () => {
              ))}
            </div>
         </div>
-        <div className={`w-1/2 bg-[#0a0a0a] h-full transition-transform duration-[1.2s] ease-[0.16, 1, 0.3, 1] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`w-1/2 bg-[#0a0a0a] h-full transition-transform duration-[1.2s] ease-[0.16, 1, 0.3, 1] ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
           <div className="h-full flex flex-col justify-center px-10 gap-8 border-l border-white/5">
              {navLinks.slice(3).map((link) => (
                <Link key={link.path} to={link.path} onClick={() => setIsOpen(false)} className="text-5xl font-crimson font-bold text-white tracking-tighter hover:text-[#b33d1d] transition-all transform hover:translate-x-4 duration-500">{link.name}</Link>
@@ -131,7 +131,7 @@ const Footer = () => (
             <span className="text-5xl font-crimson font-bold tracking-tight">BharatGoAi</span>
           </Link>
           <p className="text-white/40 text-3xl leading-[1.3] mb-16 max-w-xl font-crimson italic">
-            "Architecting the sovereign intelligence foundation for the Indian Subcontinent. Built with honor, precision, and technological permanence."
+            "Architecting the intelligence foundation for Bharat. Built with honor, precision, and simplicity."
           </p>
           <div className="flex gap-10">
             {[Linkedin, Twitter, Instagram].map((Icon, idx) => (
@@ -172,7 +172,7 @@ const Footer = () => (
       <div className="border-t border-white/5 pt-16 flex flex-col md:flex-row justify-between items-center gap-12 text-[10px] font-bold uppercase tracking-[0.6em] text-white/10">
         <div className="flex items-center gap-6">
            <div className="w-8 h-[1px] bg-[#b33d1d]"></div>
-           <p>© 2025 BHARATGOAI ARCHITECTURAL LABS. PREMIERE SOVEREIGN AI PLATFORM.</p>
+           <p>© 2025 BHARATGOAI ARCHITECTURAL LABS. ENTERPRISE AI PLATFORM.</p>
         </div>
         <div className="flex gap-16">
           <a href="#" className="hover:text-white transition-colors">Security Charter</a>

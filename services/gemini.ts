@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Modality } from "@google/genai";
 
 // Always use process.env.API_KEY directly and instantiate new GoogleGenAI with named parameter.
@@ -10,7 +9,7 @@ export const generateTextResponse = async (prompt: string, history: {role: strin
     model: 'gemini-3-flash-preview',
     contents: [...history.map(h => ({ role: h.role, parts: [{ text: h.parts }] })), { role: 'user', parts: [{ text: prompt }] }],
     config: {
-      systemInstruction: "You are BharatGoAi, an Indian-born AI. You are helpful, respectful, and have deep knowledge of Indian culture, tech, and languages. Respond in a friendly, high-quality manner.",
+      systemInstruction: "You are BharatGoAi, an Indian-born AI. You are helpful, respectful, and have deep knowledge of Indian culture, tech, and languages. Respond in a friendly, high-quality manner as the leading AI platform for Bharat.",
       temperature: 0.7,
     }
   });

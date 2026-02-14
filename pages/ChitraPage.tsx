@@ -56,7 +56,7 @@ const ChitraPage: React.FC = () => {
               <textarea 
                 value={prompt}
                 onChange={(e) => setPrompt(e.target.value)}
-                placeholder="Draft the cinematic, technical, or architectural parameters for the sovereign manifest..."
+                placeholder="Draft the cinematic, technical, or architectural parameters for the manifest..."
                 className="w-full bg-white border border-gray-100 p-20 min-h-[350px] focus:ring-8 focus:ring-[#b33d1d]/5 transition-all text-3xl text-black font-light leading-[1.6] resize-none shadow-[0_40px_80px_-20px_rgba(0,0,0,0.08)] placeholder:text-gray-200 font-crimson italic shadow-inner"
               />
             </div>
@@ -89,7 +89,7 @@ const ChitraPage: React.FC = () => {
               {generating ? "RENDERING ASSET..." : "INITIATE RENDER"}
             </button>
             
-            <p className="text-center text-[10px] font-bold uppercase tracking-[1.2em] text-gray-300 pt-6">BharatGoAi Visual System V.01 Sovereign</p>
+            <p className="text-center text-[10px] font-bold uppercase tracking-[1.2em] text-gray-300 pt-6">BharatGoAi Visual System V.01 Enterprise</p>
           </div>
         </div>
 
@@ -129,7 +129,7 @@ const ChitraPage: React.FC = () => {
                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 border border-black/[0.03] rounded-full animate-pulse"></div>
                   </div>
                   <h3 className="text-7xl font-crimson font-bold mb-10 text-black italic leading-tight">The Visual Archive is Void.</h3>
-                  <p className="text-4xl text-gray-300 font-light italic font-crimson max-w-2xl mx-auto">"Synthesize your first sovereign visual manifest to occupy this institutional space."</p>
+                  <p className="text-4xl text-gray-300 font-light italic font-crimson max-w-2xl mx-auto">"Synthesize your first visual manifest to occupy this institutional space."</p>
                 </div>
               )}
 
@@ -158,7 +158,7 @@ const ChitraPage: React.FC = () => {
                           onClick={() => {
                             const link = document.createElement('a');
                             link.href = img.url;
-                            link.download = `bh-sovereign-asset-${img.id}.png`;
+                            link.download = `bh-asset-${img.id}.png`;
                             link.click();
                           }}
                           className="w-20 h-20 bg-black text-white flex items-center justify-center hover:bg-[#b33d1d] transition-all duration-700 shadow-2xl hover:scale-110"

@@ -7,14 +7,14 @@ const GyaanPage: React.FC = () => {
   const [prompt, setPrompt] = useState('');
   const [result, setResult] = useState('');
   const [loading, setLoading] = useState(false);
-  const [style, setStyle] = useState('Sovereign');
+  const [style, setStyle] = useState('Professional');
 
   const handleGenerate = async () => {
     if (!prompt.trim() || loading) return;
 
     setLoading(true);
     try {
-      const enhancedPrompt = `System Protocol: ${style}. Institutional Context: BharatGoAi Sovereign AI Platform Synthesis Tool. Requirement: ${prompt}. (Note: This is an AI-generated output from BharatGoAi Engine)`;
+      const enhancedPrompt = `System Protocol: ${style}. Institutional Context: BharatGoAi AI Platform Synthesis Tool. Requirement: ${prompt}. (Note: This is an AI-generated output from BharatGoAi Engine)`;
       const response = await generateTextResponse(enhancedPrompt);
       setResult(response || "Protocol failure: Synthesis output null.");
     } catch (error) {
@@ -38,16 +38,16 @@ const GyaanPage: React.FC = () => {
             <div className="w-20 h-[1.5px] bg-[#b33d1d]"></div>
             <span className="text-[#b33d1d] font-bold uppercase tracking-[2em] text-[13px] block">Synthesis Module MMXXV // Gyaan Studio</span>
           </div>
-          <h1 className="text-[6.5rem] md:text-[12rem] lg:text-[14rem] font-crimson font-bold text-black tracking-tighter leading-[0.75]">Sovereign <br /><span className="italic text-gray-200">Synthesis.</span></h1>
+          <h1 className="text-[6.5rem] md:text-[12rem] lg:text-[14rem] font-crimson font-bold text-black tracking-tighter leading-[0.75]">Strategic <br /><span className="italic text-gray-200">Synthesis.</span></h1>
         </div>
         
         <div className="lg:col-span-4 lg:text-right">
            <div className="flex items-center justify-end gap-6 mb-10 text-gray-400">
              <Activity size={18} className="text-[#b33d1d]" />
-             <span className="text-[11px] font-bold uppercase tracking-[0.5em]">System Status: Sovereign AI Tool</span>
+             <span className="text-[11px] font-bold uppercase tracking-[0.5em]">System Status: BharatGoAi Synthesis Tool</span>
            </div>
            <p className="text-4xl text-gray-400 font-light italic font-crimson leading-[1.3] max-w-lg ml-auto">
-            "Directing high-compute sovereign AI toward the production of mission-critical institutional clarity."
+            "Directing high-compute AI toward the production of mission-critical institutional clarity."
            </p>
         </div>
       </div>
@@ -71,7 +71,7 @@ const GyaanPage: React.FC = () => {
                  <span className="text-[12px] font-bold text-gray-400 uppercase tracking-[1.2em]">Command Protocol</span>
                </div>
                <div className="flex gap-4">
-                 {['Sovereign', 'Refined'].map((s) => (
+                 {['Enterprise', 'Refined'].map((s) => (
                    <button 
                       key={s}
                       onClick={() => setStyle(s)}
@@ -115,7 +115,7 @@ const GyaanPage: React.FC = () => {
             <div className="flex items-center justify-between mb-20 relative z-10">
                <div className="flex items-center gap-8">
                  <div className="w-4 h-4 bg-[#b33d1d] animate-pulse rounded-full shadow-[0_0_20px_rgba(179,61,29,0.5)]"></div>
-                 <span className="text-[12px] font-bold text-white/30 uppercase tracking-[1.2em]">Sovereign AI Output</span>
+                 <span className="text-[12px] font-bold text-white/30 uppercase tracking-[1.2em]">AI Platform Output</span>
                </div>
                {result && (
                  <div className="flex gap-6">
@@ -136,7 +136,7 @@ const GyaanPage: React.FC = () => {
                     className="h-full flex flex-col items-center justify-center text-center px-24 opacity-10"
                   >
                      <Sparkles size={140} strokeWidth={0.3} className="text-white mb-16" />
-                     <p className="text-5xl font-crimson font-light italic leading-tight">"Awaiting institutional directive for sovereign AI synthesis."</p>
+                     <p className="text-5xl font-crimson font-light italic leading-tight">"Awaiting institutional directive for AI synthesis."</p>
                   </motion.div>
                 )}
                 

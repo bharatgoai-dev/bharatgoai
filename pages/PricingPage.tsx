@@ -32,7 +32,7 @@ const PricingPage: React.FC = () => {
       popular: true
     },
     {
-      name: "Varchasva (Sovereign)",
+      name: "Varchasva (Bharat)",
       price: "Custom",
       icon: <Crown size={32} className="text-yellow-700" />,
       features: [
@@ -109,7 +109,7 @@ const PricingPage: React.FC = () => {
               </div>
               <div className="space-y-16">
                  {[
-                   { q: "Is on-premise sovereign deployment feasible?", a: "Yes, our Varchasva framework is designed specifically for institutional requirements necessitating air-gapped or localized hardware synthesis." },
+                   { q: "Is on-premise private deployment feasible?", a: "Yes, our Varchasva framework is designed specifically for institutional requirements necessitating air-gapped or localized hardware synthesis." },
                    { q: "Do you maintain native support for regional dialects?", a: "Our proprietary Indic Core is architected natively across 22+ official languages with deep dialect awareness for unmatched cultural precision." }
                  ].map((faq, idx) => (
                    <div key={idx}>

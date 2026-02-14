@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
         रा
       </motion.div>
 
-      {/* Hero: Sovereign AI Platform Foundation */}
+      {/* Hero: Enterprise AI Platform Foundation */}
       <section className="min-h-screen flex items-center px-8 md:px-16 lg:px-24 xl:px-40 max-w-[2400px] mx-auto relative pt-48 lg:pt-0">
         
         {/* Editorial Grid Markers for Perfect Alignment */}
@@ -64,15 +64,15 @@ const HomePage: React.FC = () => {
             >
               <div className="flex items-center gap-10 mb-12">
                 <div className="w-20 h-[2px] bg-[#b33d1d]"></div>
-                <span className="text-[11px] font-bold uppercase tracking-[1em] text-[#b33d1d] animate-pulse">Sovereign AI Infrastructure // Enterprise Protocol MMXXV</span>
+                <span className="text-[11px] font-bold uppercase tracking-[1em] text-[#b33d1d] animate-pulse">Enterprise AI Infrastructure // Protocol MMXXV</span>
               </div>
               
               <h1 className="text-[clamp(4rem,14vw,17rem)] font-crimson font-bold text-black leading-[0.75] tracking-tighter mb-16 flex flex-col items-start">
-                <span className="block">The Sovereign</span>
-                <span className="text-[#b33d1d] italic py-4">AI Platform</span>
+                <span className="block">Building</span>
+                <span className="text-[#b33d1d] italic py-4">Bharat's AI</span>
                 <span className="flex items-center gap-10">
-                   <span className="font-signature text-[0.42em] text-gray-200 align-middle inline-block opacity-40">of</span>
-                   <span>Bharat.</span>
+                   <span className="font-signature text-[0.42em] text-gray-200 align-middle inline-block opacity-40">for</span>
+                   <span>Everyone.</span>
                 </span>
               </h1>
             </motion.div>
@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
               className="max-w-5xl lg:pl-2"
             >
               <p className="text-3xl md:text-5xl lg:text-6xl text-gray-400 font-light leading-[1.3] mb-24 italic font-crimson">
-                "We architect the <span className="text-black font-bold not-italic border-b-8 border-[#b33d1d]/10 pb-2">autonomous AI infrastructure</span> required for the Indian century’s digital sovereignty."
+                "We architect the <span className="text-black font-bold not-italic border-b-8 border-[#b33d1d]/10 pb-2">autonomous AI infrastructure</span> required for the Indian century’s digital future."
               </p>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-16 xl:gap-32">
@@ -99,7 +99,7 @@ const HomePage: React.FC = () => {
                    </div>
                    <div className="flex items-center gap-4">
                       <div className="w-3 h-3 rounded-full bg-green-500 shadow-[0_0_20px_rgba(34,197,94,0.4)] animate-pulse"></div>
-                      <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 italic">Sovereign High-Compute Live</span>
+                      <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 italic">High-Compute Infrastructure Live</span>
                    </div>
                 </div>
               </div>
@@ -116,19 +116,19 @@ const HomePage: React.FC = () => {
                  <motion.img 
                    style={{ scale: scaleHeroImg }}
                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" 
-                   alt="Sovereign AI Engine Kernel" 
+                   alt="Enterprise AI Engine Kernel" 
                    className="w-full h-full object-cover"
                  />
                  <div className="absolute inset-0 bg-[#b33d1d]/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="absolute top-16 -right-36 transform rotate-90 origin-left">
-                 <span className="text-[11px] font-bold uppercase tracking-[2.2em] text-gray-200">SOVEREIGN_AI_PLATFORM_V.01</span>
+                 <span className="text-[11px] font-bold uppercase tracking-[2.2em] text-gray-200">AI_PLATFORM_V.01_BHARATGOAI</span>
               </div>
 
               <div className="px-8 pb-8 border-l-8 border-[#b33d1d] text-left">
                 <h4 className="font-crimson text-5xl font-bold mb-6 tracking-tight">The Kernel</h4>
-                <p className="text-[12px] font-bold text-gray-400 uppercase tracking-[0.8em] italic">Absolute Identity Verification.</p>
+                <p className="text-[12px] font-bold text-gray-400 uppercase tracking-[0.8em] italic">Simple Identity Verification.</p>
               </div>
               
               <div className="absolute -bottom-16 -right-16 opacity-30 select-none pointer-events-none group-hover:scale-110 transition-transform duration-[2s]">
@@ -145,16 +145,16 @@ const HomePage: React.FC = () => {
            {[1, 2, 3, 4].map(i => (
              <div key={i} className="flex gap-80 items-center">
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Activity size={18} className="text-[#b33d1d]" /> AI_STABILITY: 99.999%
+                  <Activity size={18} className="text-[#b33d1d]" /> AI_STABILITY: 99.9%
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Globe size={18} className="text-[#b33d1d]" /> INDIC_SYNC: NATIVE_TIER_1
+                  <Globe size={18} className="text-[#b33d1d]" /> INDIC_SYNC: NATIVE_TIER
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Shield size={18} className="text-[#b33d1d]" /> ARCHITECTURE: AIR_GAPPED_READY
+                  <Shield size={18} className="text-[#b33d1d]" /> ARCHITECTURE: ENTERPRISE
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Cpu size={18} className="text-[#b33d1d]" /> HW_COMPUTE: LOCAL_INDIA_CORE
+                  <Cpu size={18} className="text-[#b33d1d]" /> HW_COMPUTE: LOCAL_CORE
                 </span>
              </div>
            ))}
@@ -168,12 +168,12 @@ const HomePage: React.FC = () => {
               <div className="lg:col-span-8 text-left">
                  <span className="text-[#b33d1d] font-bold uppercase tracking-[1.8em] text-[13px] mb-14 block">PLATFORM_DIRECTIVES // BHARATGOAI</span>
                  <h2 className="text-8xl md:text-[14rem] lg:text-[16rem] font-crimson font-bold text-black leading-[0.72] tracking-tighter">
-                   Platform <br /> <span className="italic text-gray-200 ml-16 md:ml-32">for</span> <br /> Sovereignty.
+                   Platform <br /> <span className="italic text-gray-200 ml-16 md:ml-32">for</span> <br /> Local Growth.
                  </h2>
               </div>
               <div className="lg:col-span-4 lg:text-right border-l-8 lg:border-l-0 lg:border-r-8 border-[#b33d1d] pl-16 lg:pl-0 lg:pr-16 pb-10 text-left md:text-right">
                  <p className="text-4xl text-gray-400 font-light italic leading-relaxed font-crimson max-w-md md:ml-auto">
-                   "BharatGoAi is the premiere AI platform for institutional permanence. We build the intelligence that honors the subcontinent’s soul."
+                   "BharatGoAi is the enterprise AI platform for long-term growth. We build intelligence that respects Bharat's needs."
                  </p>
               </div>
            </div>
@@ -182,25 +182,25 @@ const HomePage: React.FC = () => {
               {[
                 { 
                   title: "Indic Sync", 
-                  desc: "Native idiomatic fluency across 22+ languages. The platform understands the soul of the dialect.",
+                  desc: "Native fluency across 22+ languages. The platform understands local dialects perfectly.",
                   icon: <Globe strokeWidth={1} size={56} />,
                   tag: "Linguistic Platform"
                 },
                 { 
                   title: "Private Kernels", 
-                  desc: "Proprietary AI tools engineered for high-security on-premise execution with zero data egress.",
+                  desc: "Secure AI tools engineered for private execution with zero data egress.",
                   icon: <Lock strokeWidth={1} size={56} />,
-                  tag: "Security Tier 0"
+                  tag: "Security Tier"
                 },
                 { 
                   title: "Edge Orchestration", 
-                  desc: "Mission-critical AI tools designed for real-time energy grids and national infrastructure.",
+                  desc: "Mission-critical AI tools designed for real-time local infrastructure.",
                   icon: <Zap strokeWidth={1} size={56} />,
                   tag: "High-Speed AI"
                 },
                 { 
                   title: "Logic Synthesis", 
-                  desc: "Multi-layered reasoning architecture tailored for Indian regulatory and cultural complexity.",
+                  desc: "Multi-layered reasoning architecture tailored for Indian complexity.",
                   icon: <Layers strokeWidth={1} size={56} />,
                   tag: "Advanced Synthesis"
                 }
@@ -228,7 +228,7 @@ const HomePage: React.FC = () => {
            style={{ x: useTransform(scrollY, [3500, 7500], [500, -500]) }}
            className="absolute top-32 left-0 text-[35vw] font-black text-white/[0.015] pointer-events-none tracking-tighter select-none"
         >
-          SOVEREIGN
+          BHARAT
         </motion.div>
 
         <div className="max-w-[2100px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-32 xl:gap-40 items-start relative z-10">
@@ -255,8 +255,8 @@ const HomePage: React.FC = () => {
                 },
                 { 
                   img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop", 
-                  title: "Sovereign AI Foundation", 
-                  ref: "CORE_MANIFEST_02_SOV" 
+                  title: "Institutional Foundation", 
+                  ref: "CORE_MANIFEST_02_ENT" 
                 }
               ].map((item, idx) => (
                 <div key={idx} className="relative group">
@@ -281,13 +281,13 @@ const HomePage: React.FC = () => {
         <div className="max-w-[1600px] mx-auto relative z-10 kinetic-reveal">
            <span className="text-[#b33d1d] font-bold uppercase tracking-[2.5em] text-[16px] mb-24 block">The Conclusion</span>
            <h2 className="text-[clamp(6rem,20vw,26rem)] font-crimson font-bold leading-[0.7] tracking-tighter mb-44 text-black text-center">
-              Claim <br />
-              <span className="handwritten font-normal text-[#b33d1d] text-[0.55em] align-middle -mt-16 inline-block opacity-80">the</span> <br />
-              Future.
+              Build <br />
+              <span className="handwritten font-normal text-[#b33d1d] text-[0.55em] align-middle -mt-16 inline-block opacity-80">with</span> <br />
+              Bharat.
            </h2>
            
            <p className="text-4xl md:text-7xl text-gray-400 font-light max-w-[85%] mx-auto leading-tight mb-64 italic font-crimson">
-              "We invite the elite institutions of the subcontinent to establish the sovereign standard using the BharatGoAi AI Platform."
+              "We invite the institutions of the subcontinent to establish the leading standard using the BharatGoAi AI Platform."
            </p>
 
            <div className="flex flex-col md:flex-row items-center justify-center gap-24 lg:gap-32">
@@ -308,7 +308,7 @@ const HomePage: React.FC = () => {
            </div>
            <div className="text-center">© 2025 BHARATGOAI PLATFORM</div>
            <div className="text-right flex items-center justify-end gap-16">
-              <span>EST. MMXXV / IV / SOVEREIGN AI</span>
+              <span>EST. MMXXV / IV / BHARAT AI</span>
               <div className="w-24 h-[1px] bg-gray-200"></div>
            </div>
         </div>

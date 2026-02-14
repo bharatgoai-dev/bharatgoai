@@ -4,7 +4,7 @@ import { Volume2, Square, Loader2, Target, Command, Mic2, Waves, Activity, Speak
 import { generateSpeech, decodeAudio } from '../services/gemini';
 
 const VaniPage: React.FC = () => {
-  const [text, setText] = useState('Experience the architecture of sound. BharatGoAi Vani Spectrum delivers sovereign, high-fidelity institutional narration synthesized with absolute emotive precision and cultural nuance.');
+  const [text, setText] = useState('Experience the architecture of sound. BharatGoAi Vani Spectrum delivers high-fidelity institutional narration synthesized with absolute emotive precision and cultural nuance.');
   const [voice, setVoice] = useState('Kore');
   const [isGenerating, setIsGenerating] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -40,7 +40,7 @@ const VaniPage: React.FC = () => {
         setIsPlaying(true);
       }
     } catch (error) {
-      alert("ACOUSTIC FAILURE: Sovereign narration engine synthesis interrupted. Check lab connectivity.");
+      alert("ACOUSTIC FAILURE: Narration engine synthesis interrupted. Check lab connectivity.");
     } finally {
       setIsGenerating(false);
     }
@@ -58,7 +58,7 @@ const VaniPage: React.FC = () => {
         </div>
         <h1 className="text-[6rem] md:text-[12rem] lg:text-[16rem] font-crimson font-bold text-black tracking-tighter mb-16 leading-[0.75]">Vani <br /><span className="italic text-gray-200">Acoustic.</span></h1>
         <p className="text-4xl text-gray-400 font-light italic font-crimson leading-[1.3] max-w-4xl mx-auto">
-          "High-fidelity human-grade narration synthesized by sovereign AI for institutional weight and linguistic precision."
+          "High-fidelity human-grade narration synthesized by AI for institutional weight and linguistic precision."
         </p>
       </div>
 
@@ -135,7 +135,7 @@ const VaniPage: React.FC = () => {
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 className="w-full bg-[#faf9f6] border-none p-20 min-h-[500px] focus:ring-8 focus:ring-[#b33d1d]/5 transition-all text-5xl text-black font-crimson leading-[1.7] resize-none shadow-inner font-light italic placeholder:text-gray-200 custom-scrollbar relative"
-                placeholder="Compose the institutional narrative script for sovereign acoustic synthesis..."
+                placeholder="Compose the institutional narrative script for acoustic synthesis..."
               />
               <div className="absolute top-1/2 right-10 -translate-y-1/2 hidden xl:block opacity-10 pointer-events-none">
                  <Speaker size={300} strokeWidth={0.1} />
@@ -174,7 +174,7 @@ const VaniPage: React.FC = () => {
             
             <div className="flex items-center gap-12 pt-16 opacity-10 hover:opacity-50 transition-opacity duration-[1s] group/footer">
                <div className="w-20 h-[1.5px] bg-black group-hover/footer:w-40 transition-all duration-[1s]"></div>
-               <span className="text-[10px] font-bold uppercase tracking-[1.5em]">REFERENCE SHEET: ACOUSTIC_CORE_V.01_SOVEREIGN</span>
+               <span className="text-[10px] font-bold uppercase tracking-[1.5em]">REFERENCE SHEET: ACOUSTIC_CORE_V.01_BHARATGOAI</span>
                <div className="flex-grow h-[1px] bg-black/5"></div>
                <span className="text-[10px] font-bold uppercase tracking-[1.2em] text-[#b33d1d]">HYDERABAD LABS SIGNATURE</span>
             </div>
