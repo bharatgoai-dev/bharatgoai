@@ -2,6 +2,7 @@
   "name": "bharatgoai",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,7 +17,10 @@
     "@google/genai": "^1.2.0"
   },
   "devDependencies": {
-    "vite": "^5.2.0",
-    "@vitejs/plugin-react": "^4.2.1"
+    "vite": "^5.2.10",
+    "@vitejs/plugin-react": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
