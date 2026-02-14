@@ -41,7 +41,7 @@ const ContactPage: React.FC = () => {
             </h1>
             
             <p className="text-2xl text-[#4a4a4a] font-medium leading-relaxed mb-32 max-w-sm italic">
-              "We prioritize sovereign partnerships over generic inquiries. Every connection is a drafting of Bharat's future."
+              "We prioritize sovereign partnerships over generic inquiries. Every connection is a drafting of Bharat's AI future."
             </p>
 
             <div className="space-y-20 relative">

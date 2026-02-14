@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
             >
               <div className="flex items-center gap-10 mb-12">
                 <div className="w-20 h-[2px] bg-[#b33d1d]"></div>
-                <span className="text-[11px] font-bold uppercase tracking-[1em] text-[#b33d1d] animate-pulse">Sovereign AI Toolset // Enterprise Protocol MMXXV</span>
+                <span className="text-[11px] font-bold uppercase tracking-[1em] text-[#b33d1d] animate-pulse">Sovereign AI Infrastructure // Enterprise Protocol MMXXV</span>
               </div>
               
               <h1 className="text-[clamp(4rem,14vw,17rem)] font-crimson font-bold text-black leading-[0.75] tracking-tighter mb-16 flex flex-col items-start">
@@ -84,22 +84,22 @@ const HomePage: React.FC = () => {
               className="max-w-5xl lg:pl-2"
             >
               <p className="text-3xl md:text-5xl lg:text-6xl text-gray-400 font-light leading-[1.3] mb-24 italic font-crimson">
-                "We architect the <span className="text-black font-bold not-italic border-b-8 border-[#b33d1d]/10 pb-2">autonomous AI tools</span> required for the Indian century’s digital infrastructure."
+                "We architect the <span className="text-black font-bold not-italic border-b-8 border-[#b33d1d]/10 pb-2">autonomous AI infrastructure</span> required for the Indian century’s digital sovereignty."
               </p>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-16 xl:gap-32">
                 <Link to="/solutions" className="btn-hand-crafted !px-16 !py-8 text-lg group shadow-3xl">
-                  <span className="relative z-10">Launch Tools</span>
+                  <span className="relative z-10">Launch Platform</span>
                   <ArrowRight size={24} className="inline ml-10 group-hover:translate-x-12 transition-all duration-[0.8s]" />
                 </Link>
                 <div className="flex flex-col gap-6 border-l-2 border-black/5 pl-12">
                    <div className="flex items-center gap-6 text-gray-400">
                       <Database size={18} className="text-[#b33d1d]" />
-                      <span className="text-[10px] font-bold uppercase tracking-[0.5em]">PLATFORM_REF: BHARAT_AI_V1</span>
+                      <span className="text-[10px] font-bold uppercase tracking-[0.5em]">PLATFORM_CORE: BHARAT_AI_V1</span>
                    </div>
                    <div className="flex items-center gap-4">
                       <div className="w-3 h-3 rounded-full bg-green-500 shadow-[0_0_20px_rgba(34,197,94,0.4)] animate-pulse"></div>
-                      <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 italic">Core Processing Ready</span>
+                      <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 italic">Sovereign High-Compute Live</span>
                    </div>
                 </div>
               </div>
@@ -116,18 +116,18 @@ const HomePage: React.FC = () => {
                  <motion.img 
                    style={{ scale: scaleHeroImg }}
                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" 
-                   alt="Sovereign AI Tool Kernel" 
+                   alt="Sovereign AI Engine Kernel" 
                    className="w-full h-full object-cover"
                  />
                  <div className="absolute inset-0 bg-[#b33d1d]/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               
               <div className="absolute top-16 -right-36 transform rotate-90 origin-left">
-                 <span className="text-[11px] font-bold uppercase tracking-[2.2em] text-gray-200">SOVEREIGN_AI_EXHIBIT_A.01</span>
+                 <span className="text-[11px] font-bold uppercase tracking-[2.2em] text-gray-200">SOVEREIGN_AI_PLATFORM_V.01</span>
               </div>
 
               <div className="px-8 pb-8 border-l-8 border-[#b33d1d] text-left">
-                <h4 className="font-crimson text-5xl font-bold mb-6 tracking-tight">The Engine</h4>
+                <h4 className="font-crimson text-5xl font-bold mb-6 tracking-tight">The Kernel</h4>
                 <p className="text-[12px] font-bold text-gray-400 uppercase tracking-[0.8em] italic">Absolute Identity Verification.</p>
               </div>
               
@@ -148,13 +148,13 @@ const HomePage: React.FC = () => {
                   <Activity size={18} className="text-[#b33d1d]" /> AI_STABILITY: 99.999%
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Globe size={18} className="text-[#b33d1d]" /> INDIC_SYNC: NATIVE_V.01
+                  <Globe size={18} className="text-[#b33d1d]" /> INDIC_SYNC: NATIVE_TIER_1
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Shield size={18} className="text-[#b33d1d]" /> DATA_SECURITY: AIR_GAPPED
+                  <Shield size={18} className="text-[#b33d1d]" /> ARCHITECTURE: AIR_GAPPED_READY
                 </span>
                 <span className="text-[12px] font-bold uppercase tracking-[1.8em] text-white/40 flex items-center gap-10">
-                  <Cpu size={18} className="text-[#b33d1d]" /> HW_COMPUTE: LOCAL_INDIA
+                  <Cpu size={18} className="text-[#b33d1d]" /> HW_COMPUTE: LOCAL_INDIA_CORE
                 </span>
              </div>
            ))}
@@ -165,7 +165,7 @@ const HomePage: React.FC = () => {
       <section className="py-80 bg-white relative overflow-hidden border-b border-black/5">
         <div className="max-w-[2100px] mx-auto px-10 md:px-24 xl:px-32">
            <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 mb-72 items-end kinetic-reveal">
-              <div className="lg:col-span-8">
+              <div className="lg:col-span-8 text-left">
                  <span className="text-[#b33d1d] font-bold uppercase tracking-[1.8em] text-[13px] mb-14 block">PLATFORM_DIRECTIVES // BHARATGOAI</span>
                  <h2 className="text-8xl md:text-[14rem] lg:text-[16rem] font-crimson font-bold text-black leading-[0.72] tracking-tighter">
                    Platform <br /> <span className="italic text-gray-200 ml-16 md:ml-32">for</span> <br /> Sovereignty.
@@ -173,7 +173,7 @@ const HomePage: React.FC = () => {
               </div>
               <div className="lg:col-span-4 lg:text-right border-l-8 lg:border-l-0 lg:border-r-8 border-[#b33d1d] pl-16 lg:pl-0 lg:pr-16 pb-10 text-left md:text-right">
                  <p className="text-4xl text-gray-400 font-light italic leading-relaxed font-crimson max-w-md md:ml-auto">
-                   "BharatGoAi is the premier AI toolset for institutional permanence. We build the intelligence that honors the subcontinent’s soul."
+                   "BharatGoAi is the premiere AI platform for institutional permanence. We build the intelligence that honors the subcontinent’s soul."
                  </p>
               </div>
            </div>
@@ -182,19 +182,19 @@ const HomePage: React.FC = () => {
               {[
                 { 
                   title: "Indic Sync", 
-                  desc: "Native idiomatic fluency across 22+ languages. The AI platform understands the soul of the dialect.",
+                  desc: "Native idiomatic fluency across 22+ languages. The platform understands the soul of the dialect.",
                   icon: <Globe strokeWidth={1} size={56} />,
                   tag: "Linguistic Platform"
                 },
                 { 
                   title: "Private Kernels", 
-                  desc: "Proprietary AI tools engineered for high-security on-premise execution with zero data leakage.",
+                  desc: "Proprietary AI tools engineered for high-security on-premise execution with zero data egress.",
                   icon: <Lock strokeWidth={1} size={56} />,
                   tag: "Security Tier 0"
                 },
                 { 
-                  title: "Edge Sync", 
-                  desc: "Mission-critical AI tools designed for real-time energy grids and sovereign infrastructure.",
+                  title: "Edge Orchestration", 
+                  desc: "Mission-critical AI tools designed for real-time energy grids and national infrastructure.",
                   icon: <Zap strokeWidth={1} size={56} />,
                   tag: "High-Speed AI"
                 },
@@ -233,7 +233,7 @@ const HomePage: React.FC = () => {
 
         <div className="max-w-[2100px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-32 xl:gap-40 items-start relative z-10">
            <div className="lg:col-span-5 lg:sticky lg:top-60 kinetic-reveal text-left">
-              <span className="text-[#b33d1d] font-bold uppercase tracking-[2em] text-[13px] mb-16 block">AI_STUDIO // EXHIBITION</span>
+              <span className="text-[#b33d1d] font-bold uppercase tracking-[2em] text-[13px] mb-16 block">AI STUDIO // EXHIBITION</span>
               <h2 className="text-[7.5rem] md:text-[11rem] lg:text-[14rem] font-crimson font-bold leading-[0.8] tracking-tighter mb-24">
                 Platform <br /> <span className="handwritten text-[#b33d1d] text-[0.6em] align-middle opacity-80">of</span> <br /> Vision.
               </h2>
@@ -251,11 +251,11 @@ const HomePage: React.FC = () => {
                 { 
                   img: "https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=1936&auto=format&fit=crop", 
                   title: "Cultural Synthesis", 
-                  ref: "MANIFEST_01_PLATFORM_SYNC" 
+                  ref: "MANIFEST_01_AI_SYNC" 
                 },
                 { 
                   img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop", 
-                  title: "Institutional AI Platform", 
+                  title: "Sovereign AI Foundation", 
                   ref: "CORE_MANIFEST_02_SOV" 
                 }
               ].map((item, idx) => (
@@ -280,7 +280,7 @@ const HomePage: React.FC = () => {
 
         <div className="max-w-[1600px] mx-auto relative z-10 kinetic-reveal">
            <span className="text-[#b33d1d] font-bold uppercase tracking-[2.5em] text-[16px] mb-24 block">The Conclusion</span>
-           <h2 className="text-[clamp(6rem,20vw,26rem)] font-crimson font-bold leading-[0.7] tracking-tighter mb-44 text-black">
+           <h2 className="text-[clamp(6rem,20vw,26rem)] font-crimson font-bold leading-[0.7] tracking-tighter mb-44 text-black text-center">
               Claim <br />
               <span className="handwritten font-normal text-[#b33d1d] text-[0.55em] align-middle -mt-16 inline-block opacity-80">the</span> <br />
               Future.
